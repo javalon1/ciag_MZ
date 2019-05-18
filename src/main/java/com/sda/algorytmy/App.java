@@ -8,16 +8,13 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Scanner sk = new Scanner(System.in);
-        System.out.println("Podaj pierwszy wyraz ciągu:");
-        int a = sk.nextInt();
-        System.out.println("Podaj dlugosc ciagu: ");
-        int n = sk.nextInt();
-        System.out.println("Podaj przyrost:");
+
+        int a1 = sk.nextInt();
         int d = sk.nextInt();
+        int n = sk.nextInt();
 
         for (int i = 2; i <= n; i++) {
-            int next = a + (i - 1) * d;
-            System.out.println(next);
+            System.out.println(a1 +(i-1)*d);
 
         }
 
